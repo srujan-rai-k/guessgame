@@ -1,0 +1,62 @@
+html { 
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+	} 
+	
+	body {
+		background-image: url(back.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin: 0 auto; 
+	} 
+	img{
+		width: 100%;
+		height: 720px;
+		
+	}
+	.centered {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: aquamarine;
+	}
+
+	.container {
+		position: relative;
+		text-align: center;
+		font-size: 30px;
+	}
+	input{
+		background-color: rgb(255, 115, 0);
+		border: solid 2px black;
+		height: 20px;
+	}
+	.guessSubmit{
+		background-color: rgb(223, 76, 22);
+		color: cyan;
+		height: 25px;
+	}
+	.guessField{
+		background-color: darkturquoise;
+	}
+	.reset{
+		height: 25px;
+	}
+
+	@media screen and (max-width: 900px){
+		.container{
+			font-size: unset;
+		}
+		.guessSubmit{
+			margin-top: 5px;
+			background-color: rgb(223, 76, 22);
+			color: cyan;
+		}
+		.reset{
+			margin-top: 5px;
+		}
+		.guessField{
+			margin-top: 5px;
+			background-color: darkturquoise;
+		}
+	}
